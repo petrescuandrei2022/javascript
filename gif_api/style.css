@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10vh;
+    gap: 10px;
+}
+
+input{
+    color: white;
+    background-color: black;
+    border: 1px solid;
+}
+
+::placeholder{
+    opacity: 50%;
+}
+
+.gif{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.container2{
+    display: flex;
+    gap: 10px;
+}
+
+.search, .new{
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.search:hover{
+    background-color: rgb(53, 51, 51);
+}
+
+.new:hover{
+    background-color: rgb(53, 51, 51);
+}
