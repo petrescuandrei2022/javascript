@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+    gap: 20px;
+}
+
+.panel{
+    height: 80vh;
+    flex: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    transition: all 700ms ease-in;
+}
+
+.active{
+    flex: 1;
+}
